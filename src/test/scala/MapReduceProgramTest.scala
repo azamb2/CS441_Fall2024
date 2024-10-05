@@ -68,7 +68,7 @@ class MapReduceProgramTest extends AnyFlatSpec with Matchers {
       new MapReduceProgram.TextArrayWritable(Array("1.0", "1.0", "1.0", "1.0", "2.0")), // embedding + frequency
       new MapReduceProgram.TextArrayWritable(Array("1.0", "2.0", "1.0", "1.0", "3.0"))  // embedding + frequency
     ).asJava.iterator()
-
+    // im pushing
     reducer.reduce(key, values, outputCollector, null)
 
     // Retrieve collected outputs after the reduce function is called
