@@ -9,13 +9,26 @@ lazy val root = (project in file("."))
 // https://mvnrepository.com/artifact/com.knuddels/jtokkit
 libraryDependencies += "com.knuddels" % "jtokkit" % "1.1.0"
 // https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-common
-libraryDependencies += "org.apache.hadoop" % "hadoop-common" % "3.3.4"
+libraryDependencies += "org.apache.hadoop" % "hadoop-common" % "3.4.0"
 // https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-mapreduce-client-core
-libraryDependencies += "org.apache.hadoop" % "hadoop-mapreduce-client-core" % "3.3.4"
-libraryDependencies += "org.apache.hadoop" % "hadoop-mapreduce-client-jobclient" % "3.3.4"
-libraryDependencies += "org.apache.opennlp" % "opennlp-tools" % "2.1.0" // Use the latest version
+libraryDependencies += "org.apache.hadoop" % "hadoop-mapreduce-client-core" % "3.4.0"
+libraryDependencies += "org.apache.hadoop" % "hadoop-mapreduce-client-jobclient" % "3.4.0"
+libraryDependencies += "org.apache.opennlp" % "opennlp-tools" % "2.4.0" // Use the latest version
 libraryDependencies += "com.knuddels" % "jtokkit" % "1.1.0"
 libraryDependencies ++= Seq(
   "org.scalanlp" %% "breeze" % "2.1.0",
   "org.scalanlp" %% "breeze-natives" % "2.1.0"
 )
+libraryDependencies += "org.deeplearning4j" % "deeplearning4j-core" % "1.0.0-M2"
+libraryDependencies += "org.nd4j" % "nd4j-native-platform" % "1.0.0-M2"
+libraryDependencies += "org.deeplearning4j" % "deeplearning4j-nlp"  % "1.0.0-M2"
+libraryDependencies +=  "org.tensorflow"         %  "tensorflow"                % "1.15.0"
+//libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.5.6" // or the latest version
+//libraryDependencies += "org.slf4j" % "slf4j-simple" % "2.0.13" // Match the version to your slf4j-api
+//libraryDependencies += Seq(
+//  "org.deeplearning4j" % "deeplearning4j-core" % "1.0.0-M2",
+////  "org.deeplearning4j" % "deeplearning4j-nlp"  % "1.0.0-M2",
+////  "org.nd4j"            % "nd4j-native-platform" % "1.0.0-M2",
+////  "org.slf4j"           % "slf4j-api"            % "2.0.12",
+////  "ch.qos.logback"      % "logback-classic"      % "1.5.6" // Logging implementation
+//)
