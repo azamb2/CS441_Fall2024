@@ -55,35 +55,4 @@ object JTokkitTokenizer {
     decodedText
   }
 
-  // Main method for testing
-  def main(args: Array[String]): Unit = {
-    // Test tokenization of a word
-//    val word = "learn to come to school on time"
-//    val tokenId = getTokenIds(word)
-//    println(s"Token ID for '$word': ${tokenId.mkString("Array(", ", ", ")")}")
-//    val str = "44396,  291, 704"
-//    val intArray: Array[Int] = str.split(", ").map(_.toInt)
-    // Test the function
-    val arr = Array(44396, 291, 704)
-////    val result = combineNumbers(arr)
-//    println(result) // Output: 1345
-
-
-
-    // Print the array to verify
-//    println(intArray.mkString(", "))
-
-    // Test tokenization of a sentence
-//    val sentence = "The Project Gutenberg eBook of The philosophy of Jake Haiden (late Jacob K. Huff) This ebook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever."
-//    val tokenIds = tokenizeSentence(sentence)
-//    println(s"Token IDs for '$sentence': ${tokenIds.mkString(", ")}")
-
-    // Test decoding of token IDs
-    val decodedSentence = decodeTokens(arr)
-    println(s"Decoded sentence: $decodedSentence")
-
-    // Test decoding a single token ID
-//    val singleTokenId = tokenIds.head // Get the first token ID for testing
-//    decodeToken(singleTokenId)
-  }
 }

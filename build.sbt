@@ -32,3 +32,10 @@ libraryDependencies +=  "org.tensorflow"         %  "tensorflow"                
 ////  "org.slf4j"           % "slf4j-api"            % "2.0.12",
 ////  "ch.qos.logback"      % "logback-classic"      % "1.5.6" // Logging implementation
 //)
+libraryDependencies += "org.scalactic" %% "scalactic" % "3.2.19"
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.19" % "test"
+libraryDependencies += "org.scalatest" %% "scalatest-funsuite" % "3.2.19" % "test"
+libraryDependencies ++= Seq(
+  "org.slf4j" % "slf4j-api" % "1.7.30", // or any version you prefer
+  "ch.qos.logback" % "logback-classic" % "1.2.3" // or any version you prefer
+)
