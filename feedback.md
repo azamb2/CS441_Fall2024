@@ -10,4 +10,4 @@
 ### At least 5 unit/integration tests
 - Less than 5 test configured and 2 tests fails (-2)
 
-Your Grade: 10/15
+Your Grade: 11/15
